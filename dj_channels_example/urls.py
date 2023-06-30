@@ -21,4 +21,5 @@ from chat import views
 urlpatterns = [
     path('chat/', include('chat.urls')),
     path('admin/', admin.site.urls),
+    path('', include('notas.urls')),
 ]
